@@ -1,0 +1,133 @@
+*{
+	text-decoration: none;
+    margin: 0;     
+    font-family: sans-serif;
+}
+
+body{
+	background-color: #e8f0fe;
+}
+
+.navbar{
+	background-image:linear-gradient(to bottom, #58ee51, #51eea8); font-family: calibri; padding: 10px; 
+    overflow: hidden;
+    top: 0;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4)
+}
+
+.navdiv{
+	display: flex; align-items: center; justify-content: space-between;
+}
+		
+.logo a{
+	font-size: 35px; font-weight: 600; color: white;
+}
+		
+li{
+	list-style: none; display: inline-block;
+}
+
+li a{
+	color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+    position: relative;
+}
+.logo a:hover{
+    color: #ffffff;
+}
+a:hover{
+    color:#252627;
+    transform: translateY(-100px); 
+    text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+header{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: center;
+    vertical-align: bottom;
+    color: #e8f0fe;
+    font-size: 130px;
+    line-height: 500px;
+    background-image: linear-gradient(#51eea8,  #58ee51);
+    height: 350px;
+}
+
+header h1{
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.flex-container {
+    margin: 20px;
+    display: flex;
+    background-color: #e8f0fe;
+  }
+  
+.flex-container > div {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.under{
+    padding:50px;
+    margin:30px;
+}
+.under img{
+    margin: 20px;
+    padding: 20px;
+    background-color: #516eee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 100%;
+}
+
+p{
+    font-size: 18px;
+}
+
+h5{
+    text-align: center;
+}
+
+table {
+    font-size: 18px;
+    margin: 20px;
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #516eee;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+td {
+    color: #333;
+}
+
+.footer {
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    background-color:#58ee51;
+    color: white;
+    text-align: center;
+}
+

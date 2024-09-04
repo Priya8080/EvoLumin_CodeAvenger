@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="index.css">
+
+	<title>Vitality Vibe</title>
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="navdiv">
+			<div class="logo"><a href="index.html"><strong>Vitality Vibe</strong></a> </div>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="work.html">Work</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="row">
+		<div class="column"> 
+            <img src="123.jpeg" width="100%">
+		</div>
+		<div class="column">
+			<img src="nut.jpeg" width="100%">
+		</div>
+		<div class="column">
+			<img src="food.jpeg" width="100%">
+		</div>
+	</div>
+
+	<div class="content">
+		<h1 style="color: brown; font-weight:800">"Energizing Your Health and Wellness Journey"</h1>
+		</div>
+	<p style="color:brown;"> </p></h1>
+	</div>
+
+<center>
+<div>
+	<div class="bmi">BMI CALCULATOR</div>
+    <form>
+        <input type="number" id="weight" name="weight" required placeholder="Enter Your Weight in Kg"><br><br>
+        <input type="number" id="height" name="height" required placeholder="Enter Your Height in cm"><br><br>
+        <input type="button" value="Calculate BMI" onclick="calculateBMI()">       
+    </form>
+    <div class="space">
+    <h3 id="result"></h3>
+    <h3 id="infoLink"></h3>
+    </div>
+</div>
+</center>
+<div class="footer">
+    <p><strong>All right reserved by CodeAvenger</strong></p>
+</div>
+
+</body>
+
+
+<script>
+    function calculateBMI() {
+        var weight = document.getElementById("weight").value;
+        var height = document.getElementById("height").value;
+        height = height / 100;
+        var bmi = weight / (height * height);
+        var resultText = "Your BMI is " + bmi.toFixed(2);
+
+        var categoryText = "";
+        var infoLink = "";
+        if (bmi < 18.5) {
+                categoryText = "You are Slim.";
+                infoLink = '<a href="underweight.html" target="_blank">Click here for tips on gaining weight.</a>';
+        } 
+            
+        else if (bmi >= 18.5 && bmi < 24.9) {
+                categoryText = "You are Fit.";
+                infoLink = '<a href="fit.html" target="_blank">Click here for tips on maintain weight.</a>';
+        } 
+            
+        else {
+                categoryText = "You are Fat.";
+                infoLink = '<a href="fat.html" target="_blank">Click here for tips on loosing weight.</a>';
+        }
+
+        document.getElementById("result").innerText = resultText;
+        document.getElementById("infoLink").innerHTML = infoLink;
+    }
+</script>
+</html>
