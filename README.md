@@ -41,7 +41,7 @@ To run **Vitality Vibe** locally:
 3. **View Diet Plan**: Based on your BMI category, a personalized diet plan will be displayed.
 
 ## Video Explantion
-If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request. All contributions are welcome!
+**Youtube Link**: [ https://youtu.be/jwOrGJYXt7Y?si=wgnlSjqynot9vTm7 ]
 
 ## License
 
