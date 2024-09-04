@@ -23,7 +23,7 @@ To run **Vitality Vibe** locally:
 
 1. **Clone the repository**: 
    ```bash
-   git clone https://github.com/priya8080/EvoLumin_CodeAvenger.git
+   https://github.com/Priya8080/EvoLumin_CodeAvenger.git
    ```
 2. **Navigate to the project directory**:
    ```bash
